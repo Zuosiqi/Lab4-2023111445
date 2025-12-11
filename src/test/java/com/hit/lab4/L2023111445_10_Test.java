@@ -54,6 +54,6 @@ public class L2023111445_10_Test {
      */
     public void testIntegerAsFraction() {
         String result = solution.fractionAddition("5/1");
-        assertEquals("5/1", result);
+        assertEquals("10/1", result);//故意改为错误结果
     }
 }
